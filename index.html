@@ -9,11 +9,15 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="grid grid-rows-6 grid-cols-12 gap-2 h-screen">
-        <!-- header -->
-        <header class="relative row-span-1 col-span-12 bg-gray-300" id="header-image">
-            <h1 class="text-white capitalize">Your next big project</h1>
-            <div class="absolute inset-x-0 bottom-0 bg-red-500 text-white">
+    <div class="grid">
+        
+            <!-- header -->
+            <header class="flex items-center justify-center col-span-12 bg-gray-300 h-36" id="header-image">
+                <h1 class="text-white uppercase font-bold text-3xl">Your next big project</h1>
+            </header>
+
+            <!-- red navigation bar -->
+            <div class="col-span-12 bg-red-500 text-white h-8 p-1">
                 <a href="" class="pl-8">Home</a>
                 <a href="" class="pl-4">About</a>
                 <a href="" class="pl-4">Contact</a>
@@ -21,30 +25,29 @@
                 <a href="" class="pl-4">Bigger</a>
                 <a href="" class="pl-4">Even more</a>
             </div>
-        </header>
       
         <!-- left navigation -->
-        <nav class="row-span-4 col-span-2 border border-black p-4 ml-3">
+        <nav class="col-span-12 md:col-span-2 border border-black p-4 m-3">
             <a href="" class="">Different content link</a><br>
             <a href="" class="">Different content</a><br>
             <a href="" class="">Different content</a><br>
         </nav>
       
         <!-- center content -->
-        <main class="row-span-4 col-span-10 p-4">
+        <main class="col-span-12 md:col-span-10 p-4">
 
-            <h2>Title of the content</h2>
+            <h2 class="font-bold text-xl">Title of the content</h2>
 
-            <div class="grid grid-cols-2 md:grid-cols-5 lg:grid-cols-6 gap-2 container mx-auto mt-4">
+            <div class="grid grid-cols-2 md:grid-cols-5 lg:grid-cols-6 gap-4 container mx-auto mt-4">
                 <!-- card -->
                 <div id="card" class="shadow-xl">
-                    <header class="text-white p-2" id="header-image">
+                    <header class="font-bold h-12 text-white p-2 flex items-center justify-center" id="header-image">
                         Title of the article
                     </header>
-                    <p class="h-44 p-6">
+                    <p class="h-60 p-6">
                         Body of the article
                     </p>
-                    <footer class="border-t border-black flex items-center justify-between p-2">
+                    <footer class="h-12 border-t border-black flex items-center justify-between p-2">
                         <p class="ml-2 text-sm">
                             Footer of the article
                         </p>
@@ -52,42 +55,13 @@
                 </div>
 
                 <div id="card" class="shadow-xl">
-                    <header class="text-white p-2" id="header-image">
+                    <header class="font-bold h-12 text-white p-2 flex items-center justify-center" id="header-image">
                         Title of the article
                     </header>
-                    <div class="h-44 p-6">
-                        Body of the article
-                    </div>
-                    <footer class="border-t border-black flex items-center justify-between p-2">
-                        <p class="ml-2 text-sm">
-                            Footer of the article
-                        </p>
-                    </footer>
-                </div>
-                
-                <div id="card" class="shadow-xl">
-                    <header class="text-white p-2" id="header-image">
-                        Title of the article
-                    </header>
-                    <div class="h-44 p-6">
-                        Body of the article
-                    </div>
-                    <footer class="border-t border-black flex items-center justify-between p-2">
-                        <p class="ml-2 text-sm">
-                            Footer of the article
-                        </p>
-                    </footer>
-                </div>
-
-
-                <div id="card" class="shadow-xl">
-                    <header class="text-white p-2" id="header-image">
-                        Title of the article
-                    </header>
-                    <div class="h-44 p-6">
-                        Body of the article
-                    </div>
-                    <footer class="border-t border-black flex items-center justify-between p-2">
+                    <p class="h-60 p-6">
+                        Cupcake ipsum dolor. Sit amet topping apple pie chocolate bar sweet wafer pastry chocolate. 
+                    </p>
+                    <footer class="h-12 border-t border-black flex items-center justify-between p-2">
                         <p class="ml-2 text-sm">
                             Footer of the article
                         </p>
@@ -95,13 +69,13 @@
                 </div>
 
                 <div id="card" class="shadow-xl">
-                    <header class="text-white p-2" id="header-image">
+                    <header class="font-bold h-12 text-white p-2 flex items-center justify-center" id="header-image">
                         Title of the article
                     </header>
-                    <div class="h-44 p-6">
+                    <p class="h-60 p-6">
                         Body of the article
-                    </div>
-                    <footer class="border-t border-black flex items-center justify-between p-2">
+                    </p>
+                    <footer class="h-12 border-t border-black flex items-center justify-between p-2">
                         <p class="ml-2 text-sm">
                             Footer of the article
                         </p>
@@ -109,13 +83,13 @@
                 </div>
 
                 <div id="card" class="shadow-xl">
-                    <header class="text-white p-2" id="header-image">
+                    <header class="font-bold h-12 text-white p-2 flex items-center justify-center" id="header-image">
                         Title of the article
                     </header>
-                    <div class="h-44 p-6">
+                    <p class="h-60 p-6">
                         Body of the article
-                    </div>
-                    <footer class="border-t border-black flex items-center justify-between p-2">
+                    </p>
+                    <footer class="h-12 border-t border-black flex items-center justify-between p-2">
                         <p class="ml-2 text-sm">
                             Footer of the article
                         </p>
@@ -123,13 +97,13 @@
                 </div>
 
                 <div id="card" class="shadow-xl">
-                    <header class="text-white p-2" id="header-image">
+                    <header class="font-bold h-12 text-white p-2 flex items-center justify-center" id="header-image">
                         Title of the article
                     </header>
-                    <div class="h-44 p-6">
+                    <p class="h-60 p-6">
                         Body of the article
-                    </div>
-                    <footer class="border-t border-black flex items-center justify-between p-2">
+                    </p>
+                    <footer class="h-12 border-t border-black flex items-center justify-between p-2">
                         <p class="ml-2 text-sm">
                             Footer of the article
                         </p>
@@ -137,13 +111,41 @@
                 </div>
 
                 <div id="card" class="shadow-xl">
-                    <header class="text-white p-2" id="header-image">
+                    <header class="font-bold h-12 text-white p-2 flex items-center justify-center" id="header-image">
                         Title of the article
                     </header>
-                    <div class="h-44 p-6">
+                    <p class="h-60 p-6">
                         Body of the article
-                    </div>
-                    <footer class="border-t border-black flex items-center justify-between p-2">
+                    </p>
+                    <footer class="h-12 border-t border-black flex items-center justify-between p-2">
+                        <p class="ml-2 text-sm">
+                            Footer of the article
+                        </p>
+                    </footer>
+                </div>
+
+                <div id="card" class="shadow-xl">
+                    <header class="font-bold h-12 text-white p-2 flex items-center justify-center" id="header-image">
+                        Title of the article
+                    </header>
+                    <p class="h-60 p-6">
+                        Body of the article
+                    </p>
+                    <footer class="h-12 border-t border-black flex items-center justify-between p-2">
+                        <p class="ml-2 text-sm">
+                            Footer of the article
+                        </p>
+                    </footer>
+                </div>
+
+                <div id="card" class="shadow-xl">
+                    <header class="font-bold h-12 text-white p-2 flex items-center justify-center" id="header-image">
+                        Title of the article
+                    </header>
+                    <p class="h-60 p-6">
+                        Cupcake ipsum dolor. Sit amet topping apple pie chocolate bar sweet wafer pastry chocolate. 
+                    </p>
+                    <footer class="h-12 border-t border-black flex items-center justify-between p-2">
                         <p class="ml-2 text-sm">
                             Footer of the article
                         </p>
@@ -154,9 +156,9 @@
 
         </main>
             
-        <footer class="row-span-1 col-span-12 bg-gray-300">
-          <!-- Footer content -->
-          Footer...
-        </footer>
-      </div></body>
+        <div class="col-span-12 h-24 bg-blue-600 text-white flex items-center justify-center">
+          Footer
+        </div>
+      </div>
+    </body>
 </html>
