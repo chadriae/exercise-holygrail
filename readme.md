@@ -8,3 +8,9 @@ This is an exercise in making a **responsive** holy grail website with [Tailwind
 - HTML
 - CSS
 - Tailwindcss
+- git
+- GitHub
+
+## Live version :gun:
+
+Check it out over [here](https://chadriae.github.io/exercise-holygrail/).
